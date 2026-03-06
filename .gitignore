@@ -1,10 +1,39 @@
+# Build directories
 build/
-*.o
-*.a
-*.so
-*.exe
-.DS_Store
+build*/
+out/
+cmake-build-*/
+
+# CMake
+CMakeCache.txt
 CMakeFiles/
 cmake_install.cmake
-CMakeCache.txt
 Makefile
+*.cmake
+!CMakeLists.txt
+
+# Compiled output
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.pdb
+*.ilk
+
+# IDE
+.vscode/
+.idea/
+*.user
+*.suo
+
+# macOS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+*.env
